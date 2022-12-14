@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NotaryAssignment/static/css/main.ec601d2a.css",
+    "main.js": "/NotaryAssignment/static/js/main.c1e99644.js",
+    "static/media/image.jpg": "/NotaryAssignment/static/media/image.0fafd7abf60f4f234353.jpg",
+    "index.html": "/NotaryAssignment/index.html",
+    "main.ec601d2a.css.map": "/NotaryAssignment/static/css/main.ec601d2a.css.map",
+    "main.c1e99644.js.map": "/NotaryAssignment/static/js/main.c1e99644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec601d2a.css",
+    "static/js/main.c1e99644.js"
+  ]
+}
