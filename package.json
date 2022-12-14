@@ -2,7 +2,7 @@
   "name": "assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aakashdave.github.io/NotaryAssignment",
+  "homepage": "https://aakashdave.github.io",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
