@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NotaryAssignment/static/css/main.ec601d2a.css",
-    "main.js": "/NotaryAssignment/static/js/main.c1e99644.js",
-    "static/media/image.jpg": "/NotaryAssignment/static/media/image.0fafd7abf60f4f234353.jpg",
-    "index.html": "/NotaryAssignment/index.html",
-    "main.ec601d2a.css.map": "/NotaryAssignment/static/css/main.ec601d2a.css.map",
-    "main.c1e99644.js.map": "/NotaryAssignment/static/js/main.c1e99644.js.map"
+    "main.css": "/static/css/main.ec601d2a.css",
+    "main.js": "/static/js/main.587f0f5a.js",
+    "static/media/image.jpg": "/static/media/image.0fafd7abf60f4f234353.jpg",
+    "index.html": "/index.html",
+    "main.ec601d2a.css.map": "/static/css/main.ec601d2a.css.map",
+    "main.587f0f5a.js.map": "/static/js/main.587f0f5a.js.map"
   },
   "entrypoints": [
     "static/css/main.ec601d2a.css",
-    "static/js/main.c1e99644.js"
+    "static/js/main.587f0f5a.js"
   ]
 }
