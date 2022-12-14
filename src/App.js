@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Stepper1 from './Stepper1';
-import { Routes , Route } from 'react-router-dom';
+import Steppers from './Steppers';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 const App = () => {
 
@@ -17,9 +16,7 @@ const App = () => {
           </div>
         </section>
         <section className='stepperClass'>
-        <Routes>
-          <Route path='/' element={<Stepper1/>}></Route>
-        </Routes>
+        <Steppers/>
         </section>
        
       </main>

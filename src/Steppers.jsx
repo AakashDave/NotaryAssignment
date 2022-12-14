@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 
-const Stepper1 = () => {
+const Steppers = () => {
 
   const [stepper,setStepper]=useState(1);
   const [data1,setData1]=useState({
@@ -180,4 +180,4 @@ const submitData=()=>{
   )
 }
 
-export default Stepper1
+export default Steppers;
