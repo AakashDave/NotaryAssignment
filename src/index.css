@@ -11,3 +11,171 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p,h1,h3{
+  margin: 0;
+  font-weight: 500;
+}
+#root{
+  display: flex;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.navbar{
+  width: 20vw;
+  background-color: #2a1a53;
+  color: #ffffff;
+}
+.heading h1{
+  color: rgb(252, 208, 155);
+  margin-top: 15px;
+}
+.navbar h1{
+  text-align: center;
+}
+
+.profileData{
+  margin-top: 50px;
+}
+.headDetail{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+.navbar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.details{
+  margin-left: 25px;
+}
+.details p{
+  margin: 15px 0;
+}
+
+main{
+  width: 80vw;
+  height: 100vh;
+}
+.topMenu{
+  margin-left: 20px;
+}
+.topMenu p{
+  margin-left: 32px;
+  color: #9d9d9d;
+}
+
+.stepperClass{
+height: 80vh;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+flex-direction: column;
+}
+.Stepper1{
+  display:flex;
+  width: 100%;
+  height: auto;
+}
+.Stepper2{
+  display:flex;
+  width: 99%;
+  flex-direction: column;
+  height: auto;
+}
+.Stepper3{
+  display: flex;
+  width: 100%;
+}
+.Stepper1 .box1{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+}
+.box1 button{
+  background-color: white;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  cursor: pointer;
+  border: 1px solid #2a1a53;
+}
+.box1 button:hover{
+  background-color:rgb(255, 232, 199);
+}
+
+.nextStepBtn{
+  outline: none;
+  color: black;
+  text-transform: capitalize;
+  text-align: right;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.nextStepBtn:hover{
+  color: #2a1a53;
+  font-weight: bold;
+}
+.box2{
+  border: 1px solid black;
+  padding: 10px;
+}
+.borderedDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 70%;
+}
+.signerData{
+  display: flex;
+  justify-content: space-between;
+}
+.signerData input{
+  width: 15%;
+}
+
+.Stepper2 label{
+  margin-top: 10px;
+  margin: 0 30px;
+
+}
+.inputDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderInfo,.companyDetials,.signerDetails{
+  margin-top: 30px;
+}
+
+.signingLocation{
+  width: 99%;
+  margin-left: 15px;
+}
+.inputDivLoc{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.inputDivLoc label{
+  margin-top: 10px;
+}
+.signingLocation btn{
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+
+.submitbtn{
+  color: black;
+  background-color: aquamarine;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
